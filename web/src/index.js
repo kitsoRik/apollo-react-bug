@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { ApolloProvider, useQuery } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
-import { ApolloClient, InMemoryCache } from 'apollo-boost';
-import { createUploadLink } from 'apollo-upload-client';
+import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const CHAT_MESSAGES_QUERY = gql`
 query chatMessages($id: ID!){
@@ -34,9 +33,7 @@ const PRODUCT_QUERY = gql`
 `;
 
 const client = new ApolloClient({
-	link: createUploadLink({
-		uri: 'http://localhost:3501/graphql',
-	}),
+	uri: 'http://5.45.118.116:3501/graphql',
 	cache: new InMemoryCache({
 		dataIdFromObject: o => o.id
 	})
