@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.881c237a.chunk.css",
+    "main.js": "/static/js/main.a9a18c83.chunk.js",
+    "main.js.map": "/static/js/main.a9a18c83.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1a29493e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1a29493e.js.map",
+    "static/js/2.0b308eb9.chunk.js": "/static/js/2.0b308eb9.chunk.js",
+    "static/js/2.0b308eb9.chunk.js.map": "/static/js/2.0b308eb9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dee41a8e3fb42dc29464c31dc2e06087.js": "/precache-manifest.dee41a8e3fb42dc29464c31dc2e06087.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.881c237a.chunk.css.map": "/static/css/main.881c237a.chunk.css.map",
+    "static/js/2.0b308eb9.chunk.js.LICENSE.txt": "/static/js/2.0b308eb9.chunk.js.LICENSE.txt",
+    "static/media/loading.svg": "/static/media/loading.ab2515ed.svg",
+    "static/media/view-password-checked.svg": "/static/media/view-password-checked.ce9aa323.svg",
+    "static/media/view-password.svg": "/static/media/view-password.90ad6eb5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a29493e.js",
+    "static/js/2.0b308eb9.chunk.js",
+    "static/css/main.881c237a.chunk.css",
+    "static/js/main.a9a18c83.chunk.js"
+  ]
+}
